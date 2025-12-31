@@ -1,0 +1,11 @@
+[
+  {
+    "anonymous": false,
+    "inputs": [
+      { "indexed": false, "name": "addr", "type": "address" },
+      { "indexed": false, "name": "source", "type": "string" }
+    ],
+    "name": "AddressTagged",
+    "type": "event"
+  }
+]
