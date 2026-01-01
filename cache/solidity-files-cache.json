@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "D:\\Web3\\projects\\Assignment\\contracts\\StakeManager.sol": {
-      "lastModificationDate": 1767178695664,
-      "contentHash": "76985fad98030206cb00f88fb7e3b11f",
+      "lastModificationDate": 1767180674349,
+      "contentHash": "5d56e3be93a6b89fe2da6071e0901927",
       "sourceName": "contracts/StakeManager.sol",
       "solcConfig": {
         "version": "0.8.28",

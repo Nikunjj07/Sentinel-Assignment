@@ -20,6 +20,23 @@ describe("StakeManager", function () {
     await token.transfer(user.address, ethers.parseEther("100"));
   });
 
+  afterEach(async () => {
+    if (stakeManager) {
+      await stakeManager.removeAllListeners();
+    }
+    if (token) {
+      await token.removeAllListeners();
+    }
+  });
+
+  after(async () => {
+    if (process.platform === "win32") {
+      setTimeout(() => {
+        process.exit(0);
+      }, 100);
+    }
+  });
+
   it("allows user to stake", async () => {
     await token.connect(user).approve(
       await stakeManager.getAddress(),

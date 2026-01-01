@@ -1,0 +1,6 @@
+// Say: "I'm connecting to the deployed contracts and getting three test accounts"const stakeMana
+const token = await ethers.getContractAt("TestToken", "0x5FbDB2315678afecb367f032d93F642f64180aa3");
+// Get accounts
+console.log("Alice's Address:",alice.address);
+const [deployer, burner, alice] = await ethers.getSigners();
+const [deployer, burner, alice] = await ethers.getconsole.log("Alice's address:", alice.address);
